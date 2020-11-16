@@ -1,0 +1,174 @@
+@import "../../../../utils/css-vars.scss";
+
+.ls-h {
+    margin-top: 65px;
+    background: white;
+    display: flex;
+    padding: 0 20px;
+    .cp {
+        cursor: pointer;
+        background: #7530e9;
+        color: #49fffe;
+        border: none;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 200px;
+        height: 45px;
+        line-height: 30px;
+        position: relative;
+        top: 15px;
+        left: 3%;   
+    }
+}
+
+.ls {
+    .tthroo-p {
+        // text-align: center;
+    }
+    // .ls-h {
+    //     margin: 0% 5%;
+    //     // width: 63vw;
+    //     height: 7.5vh;
+    //     display: flex;
+        
+    // }
+    .ls-h-dtl {
+        float: right;
+        color: black;
+        text-align: right;
+    }
+    .p-c {
+        margin: 0% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ls-data {
+        background: white;
+        width: 30%;
+        height: 250px;
+        border-radius: 15px;
+        text-align: center;
+        margin: 2% 2.5% 2% 0;
+        border: 2px solid #7530e9;
+        position: relative;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0px 0px 15px $tthrooC1;
+        }
+        .title {
+            font-size: 24px;
+            height: 30px;
+            width: 300px;
+            max-width: 300px;
+            text-align: center;
+            word-break: break-word;
+            margin: 0 auto;
+        }
+        .i-c-d {
+            display: block;
+        }
+        .p-c-d {
+            svg {
+                height: 220px;
+            }
+            .status-info {
+                // float: left;
+                // position: relative;
+                // top: 20px;
+            }
+            .pb-h {
+                height: 20px;
+                display: flex;
+                .pb {
+                    // float:right;
+                }
+            }
+            .status-info, .date-info, .pb-h, .reward-section {
+                .pb-lbl {
+                    position: relative;
+                    right: 6px;
+                    color: grey;
+                }
+            }
+            .reward-section {
+                .reward {
+                    font-size: 18px;
+                    height: 30px;
+                    width: 300px;
+                    max-width: 300px;
+                    text-align: center;
+                    word-break: break-word;
+                }
+            }
+        }
+        .pb-info {
+            background: $tthrooC1;
+            float: right;
+            border-radius: 50%;
+            height: 35px;
+            width: 35px;
+            margin: 0 auto;
+            position: relative;
+            bottom: 8px;
+        }
+        .percent {
+            color: $tthrooC2;
+            position: relative;
+            top: 8.5px;
+            left: 2px;
+            font-size: 16px;
+            font-weight: bold;
+            .percent-i {
+                font-size: 16px;
+            }
+        }
+        .edit-dd {
+            position: absolute;
+            left: 93%;
+            top: -1px;
+        }
+        .action-proj-dd {
+            // position: absolute;
+            // left: 16px;
+            // margin-left: 14.5%;
+            background: white;
+            width: 190px;
+            height: 150px;
+            z-index: 1;
+            border-radius: 15px;
+            margin: 0 auto;
+            position: absolute;
+            right: -70px;
+            ul {
+                margin: auto;
+                width: 190px;
+                padding: 22px;
+                height: 150px;
+                border: 1px solid $tthrooC1;
+                border-radius: 15px;
+                cursor: pointer;
+                box-shadow: 0px 0px 5px $tthrooC1;
+                li {
+                    list-style-type: none;
+                    text-align: center;
+                    padding: 10px 0;
+                    border-bottom: 1px solid;
+                    cursor: pointer;
+                }
+                li:hover,
+                li.active {
+                    border-bottom: 3px solid $tthrooC1;
+                    color: $tthrooC1;
+                    font-size: 20px;
+                }
+            }
+            .action-lbl {
+                // position: relative;
+                // bottom: 9px;
+                // left: 5px;
+            }
+        }
+    }
+}

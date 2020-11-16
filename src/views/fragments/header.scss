@@ -1,0 +1,58 @@
+@import "../../utils/css-vars.scss";
+
+/**
+ * By using display: flex
+ * Logo and nav are in 2 cols
+ * align-items make them
+ * vertically centered
+ * justify-content distribute
+ * horizontal spaces around
+ * and flex-wrap break the
+ * things in two lines in
+ * small screens
+ */
+.main-header {
+    .hdr-container {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+        height: 65px;
+        flex-wrap: wrap;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        background: white;
+        border-bottom: 2px solid $tthrooC1;
+        .tthroo-logo-container {
+            display: flex;
+            .tthroo-logo {
+                height: 40px;
+                width: 50px;
+            }
+        }
+    }
+    .tthroo {
+        position: relative;
+        bottom: -5px;
+        left: 10px;
+        font-size: 23px;
+        font-weight: 700;
+        color: #7530e9;
+    }    
+    .profile-c {    
+        position: absolute;
+        right: 0;
+        padding: 0 20px; 
+    }
+    .profile {
+        height: 48px;
+        width: 48px;
+    }
+    .s-ws-container {
+        position: absolute;
+        padding: 0 20px;
+        right: 9%;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@blink-mind/core",
+  "files": [
+    "lib/"
+  ],
+  "main": "lib/main.js",
+  "module": "lib/main.es.js",
+  "umd": "dist/main.js",
+  "version": "0.0.20-beta.6",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "debug": "2.6.9",
+    "tiny-warning": "^1.0.3"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "is-plain-object": "^3.0.0",
+    "memoize-one": "^5.1.1"
+  },
+  "gitHead": "0a975dead37d717608e7661df1291ea38b441c0e"
+}

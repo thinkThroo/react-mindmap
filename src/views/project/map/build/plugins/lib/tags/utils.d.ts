@@ -1,0 +1,9 @@
+export declare const OP_TYPE_ADD_TAG = "OP_TYPE_ADD_TAG";
+export declare const OP_TYPE_DELETE_TAG = "OP_TYPE_DELETE_TAG";
+export declare const OP_TYPE_UPDATE_TAG = "OP_TYPE_UPDATE_TAG";
+export declare const OP_TYPE_ADD_TOPIC_TAG = "OP_TYPE_ADD_TOPIC_TAG";
+export declare const OP_TYPE_REMOVE_TOPIC_TAG = "OP_TYPE_REMOVE_TOPIC_TAG";
+export declare const TAG_NAME_MAX_LEN = 50;
+export declare const EXT_DATA_KEY_TAGS = "TAGS";
+export declare const EXT_KEY_TAGS = "EXT_KEY_TAGS";
+//# sourceMappingURL=utils.d.ts.map

@@ -1,0 +1,15 @@
+@import "../../utils/css-vars.scss";
+
+.dropdown, .i-close {
+        height: 30px;
+        width: 30px;
+}
+
+.dropdown-on {
+        transform: rotate(180deg);
+}
+
+li {
+        list-style: none;
+        cursor: pointer;
+}

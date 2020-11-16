@@ -1,0 +1,12 @@
+.bm-topic-title-thumbnail {
+  margin: 0 5px;
+  padding: 10px 5px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: pre-wrap; }
+  .bp3-dark .bm-topic-title-thumbnail:hover {
+    background: #58595a; }
+
+.bp3-dark .bm-topic-title-thumbnail-active {
+  background: #58595a; }

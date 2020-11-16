@@ -1,0 +1,1 @@
+{"version":3,"file":"relation.d.ts","sourceRoot":"","sources":["../packages/core/src/models/relation.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,WAAW,CAAC;AACnC,OAAO,EAAE,OAAO,EAAE,MAAM,UAAU,CAAC;AAEnC,aAAK,kBAAkB,GAAG;IACxB,GAAG,EAAE,OAAO,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,GAAG,CAAC;CACX,CAAC;;AAQF,qBAAa,QAAS,SAAQ,aAA6B;CAAG"}

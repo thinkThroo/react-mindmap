@@ -1,0 +1,59 @@
+.dv {
+    height: 89vh;
+    .tc-dnd-container {
+        display: flex;
+        .drop-column {
+            height: auto;
+            width: 250px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 0 2px #7409e3;
+            margin: 5px 20px;
+            padding: grid;
+            width: 250;
+            height: 70vh;
+            text-align: center;
+            position: relative;
+            overflow: scroll;
+        }
+        button {
+            cursor: pointer;
+            width: 165px;
+            height: 45px;
+            background: white;
+            color: #827c7c;
+            border: 0.5px solid #827c7c;
+            border-radius: 15px;
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+            font-size: 21px;
+            text-align: center;
+            &.add-i {
+                margin-top: 10px;
+            }
+            &.add-s {
+            }
+        }
+        .ddc  {
+            text-align: center;
+            .status-lbl {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .new {
+                visibility: hidden;
+            }
+        }
+        .dnd-item {
+            user-select: none;
+            padding: 16px;
+            border: 1px solid #827c7c;
+            border-radius: inherit;
+            width: 200px;
+            margin: 0px auto;
+            position: relative;
+            top: 20px;
+            margin-bottom: 12px;
+        }
+    }
+}

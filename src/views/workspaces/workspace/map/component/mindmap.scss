@@ -1,0 +1,16 @@
+#root .mindmap {
+    width: 95%;
+    height: calc(100vh - 100px);
+    margin-left: 5%;
+    margin-top: 64px;
+}
+
+.bm-toolbar {
+    /* padding: 5px 0; */
+    box-shadow: rgb(170, 170, 170) 0 0 2px;
+    background: white;
+}
+
+li {
+    list-style: inherit;
+}

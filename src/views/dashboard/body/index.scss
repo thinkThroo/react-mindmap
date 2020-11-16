@@ -1,0 +1,42 @@
+@import "../../../utils/css-vars.scss";
+
+.sb-w {
+    width: 25%;
+    position: relative;
+}
+
+.sidebar {
+    width: inherit;
+    float: left;
+    padding: 15px;
+    height: 100vh;
+    background : white;
+    position: fixed;
+    margin-top: 65px;
+}
+
+.ls {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    background: white;
+    height: 90vh;
+    /* margin-left: 25%; */
+    // margin-top: 65px;
+    overflow-y: scroll;
+}
+
+.toggle {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    background : $tthrooBg;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 90px;
+    overflow-y: scroll;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}

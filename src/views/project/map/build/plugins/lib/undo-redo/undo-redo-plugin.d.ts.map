@@ -1,0 +1,1 @@
+{"version":3,"file":"undo-redo-plugin.d.ts","sourceRoot":"","sources":["../packages/plugins/src/undo-redo/undo-redo-plugin.tsx"],"names":[],"mappings":";AAAA,OAAO,EACL,kBAAkB,EAInB,MAAM,4BAA4B,CAAC;AAGpC,wBAAgB,wBAAwB,CAAC,KAAK,KAAA,eA2B7C;AAED,wBAAgB,eAAe,CAAC,KAAK,KAAA,eAcpC;AAED,wBAAgB,eAAe,CAAC,KAAK,KAAA,eAcpC;AAED,wBAAgB,cAAc;;EAiB7B"}

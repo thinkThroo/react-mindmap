@@ -1,0 +1,33 @@
+{
+  "name": "@blink-mind/plugin-topology-diagram",
+  "files": [
+    "lib/",
+    "iconfont/"
+  ],
+  "main": "./lib/main.js",
+  "module": "lib/main.es.js",
+  "umd": "dist/main.js",
+  "version": "0.0.20-beta.6",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "peerDependencies": {
+    "@blueprintjs/core": "*",
+    "debug": "*",
+    "react": "*",
+    "styled-components": "*"
+  },
+  "dependencies": {
+    "@blink-mind/core": "^0.0.20-beta.6",
+    "@blink-mind/icons": "^0.0.20-beta.6",
+    "@blink-mind/renderer-react": "^0.0.20-beta.6",
+    "topology-activity-diagram": "^0.0.6",
+    "topology-class-diagram": "^0.0.4",
+    "topology-core": "^0.1.2",
+    "topology-flow-diagram": "^0.0.3",
+    "topology-sequence-diagram": "^0.0.6"
+  },
+  "gitHead": "0a975dead37d717608e7661df1291ea38b441c0e"
+}

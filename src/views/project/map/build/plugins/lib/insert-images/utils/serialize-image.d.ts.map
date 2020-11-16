@@ -1,0 +1,1 @@
+{"version":3,"file":"serialize-image.d.ts","sourceRoot":"","sources":["../../packages/plugins/src/insert-images/utils/serialize-image.ts"],"names":[],"mappings":"AAAA,aAAK,oBAAoB,GAAG;IAC1B,GAAG,EAAE,MAAM,CAAC;IACZ,KAAK,EAAE,MAAM,CAAC;IACd,MAAM,EAAE,MAAM,CAAC;CAChB,CAAC;AACF,wBAAgB,cAAc,CAC5B,GAAG,KAAA,EACH,IAAI,SAAc,GACjB,OAAO,CAAC,oBAAoB,CAAC,CA2B/B"}

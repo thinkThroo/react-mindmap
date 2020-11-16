@@ -1,0 +1,30 @@
+@import "../../../utils/css-vars.scss";
+
+.status-dd {
+    // position: absolute;
+    // left: 16px;
+    // margin-left: 14.5%;
+    background: white;
+    width: 230px;
+    height: 160px;
+    z-index: 1;
+    border-radius: 15px;
+    margin: 0 auto;
+    ul {
+        margin: auto;
+        width: 190px;
+        padding: 22px;
+        li {
+            list-style-type: none;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid;
+            cursor: pointer;
+        }
+        li:hover, li.active {
+            border-bottom: 3px solid $tthrooC1;
+            color: $tthrooC1;
+            font-size: 20px;
+        }
+    }
+}

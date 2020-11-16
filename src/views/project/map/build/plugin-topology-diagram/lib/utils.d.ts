@@ -1,0 +1,6 @@
+export declare const FOCUS_MODE_EDITING_TOPOLOGY = "FOCUS_MODE_EDITING_TOPOLOGY";
+export declare const OP_TYPE_START_EDITING_TOPOLOGY = "OP_TYPE_START_EDITING_TOPOLOGY";
+export declare const BLOCK_TYPE_TOPOLOGY = "TOPOLOGY";
+export declare const REF_KEY_TOPOLOGY_DIAGRAM = "TOPOLOGY_DIAGRAM";
+export declare const REF_KEY_TOPOLOGY_DIAGRAM_UTIL = "TOPOLOGY_DIAGRAM_UTIL";
+//# sourceMappingURL=utils.d.ts.map

@@ -1,0 +1,44 @@
+@import "../../../../utils/css-vars.scss";
+
+.sidebar {
+    text-align: center;
+    .sb-btn {
+        cursor: pointer;
+        padding: 15px;
+        background: #7530e9;
+        color: #49fffe;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        .btn-inr {
+            display: inline-flex;
+            .dropdown {
+                position: relative;
+                left: 10px;
+            }
+        }
+    }
+
+    .sb-lblh {
+        color: $tthrooC2;
+        padding: inherit;
+        font-size: $sbLblH;
+    }
+
+    .sb-lbl {
+        color: $tthrooC2;
+        padding: inherit;
+        font-size: $sbLbl;
+        border-bottom: 0.25px solid black;
+        padding-bottom: 12px;
+    }
+
+    .em {
+        margin: $sbEm;
+        .rdtStatic .rdtPicker {
+            width: inherit;
+        }
+    }
+}

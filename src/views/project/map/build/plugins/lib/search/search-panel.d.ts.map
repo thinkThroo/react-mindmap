@@ -1,0 +1,1 @@
+{"version":3,"file":"search-panel.d.ts","sourceRoot":"","sources":["../packages/plugins/src/search/search-panel.tsx"],"names":[],"mappings":";AACA,OAAO,EACL,SAAS,EAIV,MAAM,4BAA4B,CAAC;AASpC,OAAO,oBAAoB,CAAC;AAW5B,MAAM,WAAW,kBAAkB;IACjC,QAAQ,EAAE,OAAO,CAAC;IAClB,OAAO,EAAE,OAAO,CAAC;CAClB;AAED,wBAAgB,WAAW,CAAC,KAAK,EAAE,SAAS,eAsF3C"}

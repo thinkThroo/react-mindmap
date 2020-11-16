@@ -1,0 +1,29 @@
+.dv {    
+    margin-left: 10%;
+    margin-top: 90px;
+    width: 90vw;
+    height: 90vh;
+    padding-bottom: 20px;
+}
+
+.assess {
+    background: white;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85vw;
+    tr{
+        td {
+            max-width: 50vw;
+        }
+    }
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }

@@ -1,0 +1,38 @@
+@import "../../../../utils/css-vars.scss";
+
+.contents {
+    height: inherit;
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .proj-tab {
+        cursor: pointer;
+        font-size: 24px;
+        padding: 5px;
+        margin: 20px 0;
+        width: 100%;
+        height: auto;
+        color: white;
+        text-decoration: none;
+        &:hover:not(.active) {
+            background: rgba(74, 255, 255, 0.5);
+        }
+    }
+    .active {
+        background: rgb(73, 255, 254);
+    }
+}
+
+.btd {
+    // position: relative;
+    // top: 3%;
+    .back-btn {
+        text-decoration: none;
+        // background: white;
+        // padding: 10px;
+        // color: black;
+        // border-radius: $borderRadius;
+    }
+}

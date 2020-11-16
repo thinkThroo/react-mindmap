@@ -1,0 +1,1 @@
+{"version":3,"file":"sheet.d.ts","sourceRoot":"","sources":["../packages/core/src/models/sheet.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,WAAW,CAAC;AAEnC,aAAK,eAAe,GAAG;IACrB,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,GAAG,CAAC;CACX,CAAC;;AAOF,qBAAa,KAAM,SAAQ,UAA0B;IACnD,IAAI,IAAI,WAEP;IAED,IAAI,IAAI,QAEP;CACF"}
