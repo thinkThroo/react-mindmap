@@ -24,22 +24,41 @@ export const navTimelineOptions = [
     }
 ]
 
+// export const urls = {
+//     base: "http://localhost:3200/api",
+//     user: {
+//         register: "http://localhost:3200/api/user/register",
+//         login: "http://localhost:3200/api/user/login"
+//     },
+//     project: {
+//         base: "http://localhost:3200/api/project",
+//         create: "http://localhost:3200/api/project/create",
+//         list: "http://localhost:3200/api/project/list"
+//     },
+//     upload: "http://localhost:3200/api/upload",
+//     workspace: {
+//         base: "http://localhost:3200/api/workspace",
+//         create: "http://localhost:3200/api/workspace/create",
+//         list: "http://localhost:3200/api/workspace/list"
+//     }
+// }
+
 export const urls = {
-    base: "http://localhost:3200/api",
+    base: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api",
     user: {
-        register: "http://localhost:3200/api/user/register",
-        login: "http://localhost:3200/api/user/login"
+        register: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/user/register",
+        login: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/user/login"
     },
     project: {
-        base: "http://localhost:3200/api/project",
-        create: "http://localhost:3200/api/project/create",
-        list: "http://localhost:3200/api/project/list"
+        base: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/project",
+        create: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/project/create",
+        list: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/project/list"
     },
-    upload: "http://localhost:3200/api/upload",
+    upload: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/upload",
     workspace: {
-        base: "http://localhost:3200/api/workspace",
-        create: "http://localhost:3200/api/workspace/create",
-        list: "http://localhost:3200/api/workspace/list"
+        base: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/workspace",
+        create: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/workspace/create",
+        list: "ec2-35-154-115-239.ap-south-1.compute.amazonaws.com:3200/api/workspace/list"
     }
 }
 
